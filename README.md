@@ -45,14 +45,10 @@ Buat gw, design bukan cuma visual — tapi cara berpikir.
 ### 🌪️ Interactive UI System
 Frontend-focused interactive layout system  
 `HTML` `CSS` `JavaScript`  
-[Repository →](#)
+[Repository →](https://github.com/Vannnn793/kampusgw)
 
 ---
 
-### 🟣 Dynamic PHP Handler
-Backend logic handling & validation system  
-`PHP` `JavaScript`  
-[Repository →](#)
 
 ---
 ---

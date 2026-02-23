@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jungle Rider Transformation</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    font-family:monospace;
+}
+
+.container{
+    text-align:center;
+    color:white;
+}
+
+.rider{
+    width:150px;
+    height:150px;
+    background:#0b3d0b;
+    border-radius:50%;
+    position:relative;
+    box-shadow:0 0 20px #145214;
+    transition:0.5s;
+}
+
+.eye{
+    width:30px;
+    height:30px;
+    background:red;
+    border-radius:50%;
+    position:absolute;
+    top:45px;
+    animation: glow 1s infinite alternate;
+}
+
+.eye.left{ left:35px; }
+.eye.right{ right:35px; }
+
+@keyframes glow{
+    from{ box-shadow:0 0 5px red; }
+    to{ box-shadow:0 0 20px red; }
+}
+
+.aura{
+    position:absolute;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border:3px solid #1aff1a;
+    opacity:0;
+}
+
+.transform{
+    animation: flash 0.5s 3, auraExpand 1s forwards;
+}
+
+@keyframes flash{
+    0%{ background:black; }
+    50%{ background:#145214; }
+    100%{ background:black; }
+}
+
+@keyframes auraExpand{
+    0%{ opacity:1; transform:scale(0.5); }
+    100%{ opacity:0; transform:scale(2); }
+}
+
+button{
+    margin-top:30px;
+    padding:10px 20px;
+    background:#145214;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:red;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="aura" id="aura"></div>
+    <div class="rider" id="rider">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+    </div>
+    <br>
+    <button onclick="transform()">HENSHIN!</button>
+</div>
+
+<script>
+function transform(){
+    const aura = document.getElementById("aura");
+    aura.classList.remove("transform");
+    void aura.offsetWidth;
+    aura.classList.add("transform");
+}
+</script>
+
+</body>
+</html>

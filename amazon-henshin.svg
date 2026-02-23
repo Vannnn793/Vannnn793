@@ -1,0 +1,35 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="300" height="300" fill="black"/>
+
+  <!-- Aura expanding -->
+  <circle cx="150" cy="150" r="60" stroke="#1aff1a" stroke-width="3" fill="none" opacity="0.7">
+    <animate attributeName="r" from="60" to="120" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0.7" to="0" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Head -->
+  <circle cx="150" cy="150" r="60" fill="#0b3d0b">
+    <animate attributeName="fill" values="#000000;#145214;#0b3d0b" dur="1s" repeatCount="1"/>
+  </circle>
+
+  <!-- Left Eye -->
+  <circle cx="125" cy="140" r="12" fill="red">
+    <animate attributeName="r" values="10;14;10" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Right Eye -->
+  <circle cx="175" cy="140" r="12" fill="red">
+    <animate attributeName="r" values="10;14;10" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Text -->
+  <text x="150" y="250" fill="red" font-size="18" text-anchor="middle" font-family="monospace">
+    AMAZON MODE
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </text>
+
+</svg>

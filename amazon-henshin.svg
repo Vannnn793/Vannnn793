@@ -1,35 +1,66 @@
-<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Background -->
-  <rect width="300" height="300" fill="black"/>
+<!-- Background -->
+<rect width="1200" height="400" fill="black"/>
 
-  <!-- Aura expanding -->
-  <circle cx="150" cy="150" r="60" stroke="#1aff1a" stroke-width="3" fill="none" opacity="0.7">
-    <animate attributeName="r" from="60" to="120" dur="1.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" from="0.7" to="0" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
+<!-- Jungle Glow Background -->
+<radialGradient id="jungleGlow" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#145214"/>
+  <stop offset="100%" stop-color="black"/>
+</radialGradient>
 
-  <!-- Head -->
-  <circle cx="150" cy="150" r="60" fill="#0b3d0b">
-    <animate attributeName="fill" values="#000000;#145214;#0b3d0b" dur="1s" repeatCount="1"/>
-  </circle>
+<rect width="1200" height="400" fill="url(#jungleGlow)" opacity="0.4">
+  <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+</rect>
 
-  <!-- Left Eye -->
-  <circle cx="125" cy="140" r="12" fill="red">
-    <animate attributeName="r" values="10;14;10" dur="1s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="1s" repeatCount="indefinite"/>
-  </circle>
+<!-- Lightning -->
+<polyline points="600,0 580,120 620,120 560,260 610,260 580,400"
+ stroke="#1aff1a"
+ stroke-width="4"
+ fill="none"
+ opacity="0">
+  <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+</polyline>
 
-  <!-- Right Eye -->
-  <circle cx="175" cy="140" r="12" fill="red">
-    <animate attributeName="r" values="10;14;10" dur="1s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="1s" repeatCount="indefinite"/>
-  </circle>
+<!-- Slash Effect -->
+<line x1="300" y1="100" x2="900" y2="300"
+ stroke="red"
+ stroke-width="6"
+ opacity="0">
+  <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
+</line>
 
-  <!-- Text -->
-  <text x="150" y="250" fill="red" font-size="18" text-anchor="middle" font-family="monospace">
-    AMAZON MODE
-    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
-  </text>
+<!-- Silhouette (Before Transform) -->
+<circle cx="600" cy="200" r="70" fill="#111">
+  <animate attributeName="opacity" values="1;0" dur="1.5s" fill="freeze"/>
+</circle>
+
+<!-- Rider Head -->
+<circle cx="600" cy="200" r="70" fill="#0b3d0b" opacity="0">
+  <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
+</circle>
+
+<!-- Eyes -->
+<circle cx="570" cy="180" r="12" fill="red" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.5s" fill="freeze"/>
+  <animate attributeName="r" values="10;15;10" dur="1s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="630" cy="180" r="12" fill="red" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.5s" fill="freeze"/>
+  <animate attributeName="r" values="10;15;10" dur="1s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Aura Pulse -->
+<circle cx="600" cy="200" r="80" stroke="#1aff1a" stroke-width="3" fill="none" opacity="0">
+  <animate attributeName="opacity" values="0;0.7;0" dur="2s" repeatCount="indefinite"/>
+  <animate attributeName="r" values="80;140" dur="2s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Name Text -->
+<text x="600" y="350" fill="red" font-size="40" text-anchor="middle" font-family="monospace">
+  Vannnn793 - AMAZON MODE
+  <animate attributeName="opacity" values="0;1;0.7;1" dur="2s" repeatCount="indefinite"/>
+</text>
 
 </svg>

@@ -1,93 +1,147 @@
-<svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 680" xmlns="http://www.w3.org/2000/svg">
 
-<!-- BACKGROUND -->
-<rect width="1200" height="420" fill="black"/>
+<!-- DARK CINEMA BASE -->
+<rect width="1200" height="680" fill="#05050c"/>
 
-<!-- JUNGLE PULSE -->
-<radialGradient id="pulse" cx="50%" cy="50%" r="60%">
-  <stop offset="0%" stop-color="#1a5e1a"/>
-  <stop offset="100%" stop-color="black"/>
+<!-- DRAMATIC LIGHTNING -->
+<rect width="1200" height="680" fill="white" opacity="0">
+  <animate attributeName="opacity"
+    values="0;0.2;0;0.1;0"
+    dur="6s"
+    repeatCount="indefinite"/>
+</rect>
+
+<!-- SKYLINE BACK -->
+<g fill="#11111a">
+  <rect x="0" y="520" width="1200" height="160"/>
+  <rect x="100" y="450" width="120" height="70"/>
+  <rect x="320" y="410" width="160" height="110"/>
+  <rect x="600" y="430" width="180" height="90"/>
+  <rect x="900" y="400" width="150" height="120"/>
+</g>
+
+<!-- ENERGY GROUND GLOW -->
+<radialGradient id="groundGlow" cx="50%" cy="80%" r="40%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2"/>
+  <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
 </radialGradient>
+<rect width="1200" height="680" fill="url(#groundGlow)"/>
 
-<rect width="1200" height="420" fill="url(#pulse)">
-  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
-</rect>
-
-<!-- LIGHTNING CHAOS -->
-<g stroke="#2aff2a" stroke-width="3" fill="none">
-  <polyline points="200,0 180,120 220,120 160,280 210,280 180,420">
-    <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/>
-  </polyline>
-  <polyline points="1000,0 1020,120 980,120 1040,280 990,280 1020,420">
-    <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
-  </polyline>
+<!-- CYCLONE SWIRL -->
+<g stroke="#2affaa" stroke-width="3" fill="none" opacity="0.5">
+  <path d="M200 400 Q600 300 1000 400">
+    <animate attributeName="d"
+      values="M200 400 Q600 300 1000 400;
+              M200 420 Q600 320 1000 420;
+              M200 400 Q600 300 1000 400"
+      dur="5s"
+      repeatCount="indefinite"/>
+  </path>
 </g>
 
-<!-- BLOOD SLASHES -->
-<g stroke="red" stroke-width="6">
-  <line x1="250" y1="90" x2="950" y2="330">
-    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
-  </line>
-  <line x1="950" y1="90" x2="250" y2="330">
-    <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite"/>
-  </line>
+<!-- JOKER ENERGY PULSE -->
+<circle cx="600" cy="330" r="130" fill="#bb66ff" opacity="0.15">
+  <animate attributeName="r"
+    values="130;190;130"
+    dur="4s"
+    repeatCount="indefinite"/>
+</circle>
+
+<!-- RAIN -->
+<g stroke="#2a2a35" stroke-width="1" opacity="0.4">
+  <line x1="200" y1="0" x2="180" y2="680"/>
+  <line x1="500" y1="0" x2="480" y2="680"/>
+  <line x1="800" y1="0" x2="780" y2="680"/>
+  <line x1="1050" y1="0" x2="1030" y2="680"/>
 </g>
 
-<!-- FLOATING PARTICLES -->
-<g fill="#2aff2a">
-  <circle cx="150" cy="20" r="5">
-    <animate attributeName="cy" from="20" to="400" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1050" cy="10" r="4">
-    <animate attributeName="cy" from="10" to="400" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="400" cy="0" r="3">
-    <animate attributeName="cy" from="0" to="400" dur="5s" repeatCount="indefinite"/>
-  </circle>
+<!-- RIDER SILHOUETTE HEROIC -->
+<g fill="#0e0e15">
+
+  <!-- Head -->
+  <circle cx="600" cy="300" r="95"/>
+
+  <!-- Coat -->
+  <path d="M520 390 L680 390 L720 600 L480 600 Z"/>
+
 </g>
 
-<!-- TRANSFORMATION FLASH -->
-<rect width="1200" height="420" fill="#1aff1a" opacity="0">
-  <animate attributeName="opacity" values="0;1;0" dur="0.6s" begin="0.5s" fill="freeze"/>
+<!-- GLOW EYES -->
+<circle cx="570" cy="290" r="15" fill="#2affaa">
+  <animate attributeName="opacity"
+    values="0.6;1;0.6"
+    dur="3s"
+    repeatCount="indefinite"/>
+</circle>
+
+<circle cx="630" cy="290" r="15" fill="#bb66ff">
+  <animate attributeName="opacity"
+    values="1;0.6;1"
+    dur="3s"
+    repeatCount="indefinite"/>
+</circle>
+
+<!-- TITLE FADE IN -->
+<text x="600" y="120"
+ fill="white"
+ font-size="72"
+ text-anchor="middle"
+ font-family="monospace"
+ letter-spacing="8"
+ opacity="0">
+  Vannnn793
+  <animate attributeName="opacity"
+    from="0" to="1"
+    dur="2s"
+    fill="freeze"/>
+</text>
+
+<!-- SUBTITLE -->
+<text x="600" y="165"
+ fill="#cccccc"
+ font-size="22"
+ text-anchor="middle"
+ font-family="monospace"
+ opacity="0">
+   Icon of Fuuto — Frontend & JavaScript Specialist
+  <animate attributeName="opacity"
+    from="0" to="1"
+    dur="3s"
+    fill="freeze"/>
+</text>
+  <!-- Skill Bars -->
+<text x="100" y="250" fill="#2affaa" font-size="18" font-family="monospace">
+  HTML / CSS
+</text>
+<rect x="100" y="260" width="360" height="8" fill="#222"/>
+<rect x="100" y="260" width="0" height="8" fill="#2affaa">
+  <animate attributeName="width" from="0" to="320" dur="2s" fill="freeze"/>
 </rect>
 
-<!-- SILHOUETTE -->
-<circle cx="600" cy="200" r="75" fill="#111">
-  <animate attributeName="opacity" values="1;0" dur="1.5s" fill="freeze"/>
-</circle>
-
-<!-- RIDER HEAD -->
-<circle cx="600" cy="200" r="75" fill="#0b3d0b" opacity="0">
-  <animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.5s" fill="freeze"/>
-</circle>
-
-<!-- ENERGY BURST -->
-<circle cx="600" cy="200" r="90" stroke="#2aff2a" stroke-width="4" fill="none">
-  <animate attributeName="r" values="90;170" dur="2s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/>
-</circle>
-
-<!-- EYES ACTIVATION -->
-<circle cx="565" cy="180" r="14" fill="red" opacity="0">
-  <animate attributeName="opacity" values="0;1" begin="1.7s" dur="0.3s" fill="freeze"/>
-  <animate attributeName="r" values="12;18;12" dur="1s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="635" cy="180" r="14" fill="red" opacity="0">
-  <animate attributeName="opacity" values="0;1" begin="1.7s" dur="0.3s" fill="freeze"/>
-  <animate attributeName="r" values="12;18;12" dur="1s" repeatCount="indefinite"/>
-</circle>
-
-<!-- LASER SCAN -->
-<rect x="600" y="175" width="0" height="6" fill="red">
-  <animate attributeName="width" from="0" to="450" dur="1s" begin="2s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="1;0" dur="1s" begin="2s" repeatCount="indefinite"/>
+<text x="100" y="300" fill="#bb66ff" font-size="18" font-family="monospace">
+  JavaScript
+</text>
+<rect x="100" y="310" width="360" height="8" fill="#222"/>
+<rect x="100" y="310" width="0" height="8" fill="#bb66ff">
+  <animate attributeName="width" from="0" to="300" dur="2.5s" fill="freeze"/>
 </rect>
 
-<!-- GLITCH NAME -->
-<text x="600" y="370" fill="red" font-size="44" text-anchor="middle" font-family="monospace">
-  Vannnn793 - ABSOLUTE AMAZON
-  <animate attributeName="opacity" values="1;0.4;1;0.6;1" dur="0.4s" repeatCount="indefinite"/>
+<text x="100" y="350" fill="#bb66ff" font-size="18" font-family="monospace">
+  PHP
+</text>
+<rect x="100" y="360" width="360" height="8" fill="#222"/>
+<rect x="100" y="360" width="0" height="8" fill="#bb66ff">
+  <animate attributeName="width" from="0" to="270" dur="3s" fill="freeze"/>
+</rect>
+
+
+<!-- TAGLINE -->
+<text x="600" y="650"
+ fill="#777"
+ font-size="18"
+ text-anchor="middle"
+ font-family="monospace">
+  "Now, count up your commits."
 </text>
 
 </svg>

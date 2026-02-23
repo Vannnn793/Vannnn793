@@ -103,7 +103,7 @@
  text-anchor="middle"
  font-family="monospace"
  opacity="0">
-  The Dramatic Legend of Fuuto
+   Icon of Fuuto — Frontend & JavaScript Specialist
   <animate attributeName="opacity"
     from="0" to="1"
     dur="3s"

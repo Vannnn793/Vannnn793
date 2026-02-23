@@ -1,122 +1,120 @@
-<svg viewBox="0 0 1200 680" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
 
-<!-- DARK CINEMA BASE -->
-<rect width="1200" height="680" fill="#05050c"/>
+<!-- Background -->
+<rect width="1200" height="700" fill="#05050c"/>
 
-<!-- DRAMATIC LIGHTNING -->
-<rect width="1200" height="680" fill="white" opacity="0">
+<!-- Lightning -->
+<rect width="1200" height="700" fill="white" opacity="0">
   <animate attributeName="opacity"
-    values="0;0.2;0;0.1;0"
-    dur="6s"
+    values="0;0.18;0;0.08;0"
+    dur="7s"
     repeatCount="indefinite"/>
 </rect>
 
-<!-- SKYLINE BACK -->
+<!-- Skyline -->
 <g fill="#11111a">
-  <rect x="0" y="520" width="1200" height="160"/>
-  <rect x="100" y="450" width="120" height="70"/>
-  <rect x="320" y="410" width="160" height="110"/>
-  <rect x="600" y="430" width="180" height="90"/>
-  <rect x="900" y="400" width="150" height="120"/>
+  <rect x="0" y="550" width="1200" height="150"/>
+  <rect x="150" y="480" width="120" height="70"/>
+  <rect x="400" y="440" width="160" height="110"/>
+  <rect x="750" y="460" width="150" height="90"/>
 </g>
 
-<!-- ENERGY GROUND GLOW -->
-<radialGradient id="groundGlow" cx="50%" cy="80%" r="40%">
-  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2"/>
-  <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-</radialGradient>
-<rect width="1200" height="680" fill="url(#groundGlow)"/>
-
-<!-- CYCLONE SWIRL -->
-<g stroke="#2affaa" stroke-width="3" fill="none" opacity="0.5">
-  <path d="M200 400 Q600 300 1000 400">
-    <animate attributeName="d"
-      values="M200 400 Q600 300 1000 400;
-              M200 420 Q600 320 1000 420;
-              M200 400 Q600 300 1000 400"
-      dur="5s"
-      repeatCount="indefinite"/>
-  </path>
-</g>
-
-<!-- JOKER ENERGY PULSE -->
-<circle cx="600" cy="330" r="130" fill="#bb66ff" opacity="0.15">
-  <animate attributeName="r"
-    values="130;190;130"
-    dur="4s"
-    repeatCount="indefinite"/>
-</circle>
-
-<!-- RAIN -->
-<g stroke="#2a2a35" stroke-width="1" opacity="0.4">
-  <line x1="200" y1="0" x2="180" y2="680"/>
-  <line x1="500" y1="0" x2="480" y2="680"/>
-  <line x1="800" y1="0" x2="780" y2="680"/>
-  <line x1="1050" y1="0" x2="1030" y2="680"/>
-</g>
-
-<!-- RIDER SILHOUETTE HEROIC -->
+<!-- Rider -->
 <g fill="#0e0e15">
-
-  <!-- Head -->
-  <circle cx="600" cy="300" r="95"/>
-
-  <!-- Coat -->
-  <path d="M520 390 L680 390 L720 600 L480 600 Z"/>
-
+  <circle cx="600" cy="330" r="100"/>
+  <path d="M520 430 L680 430 L720 650 L480 650 Z"/>
 </g>
 
-<!-- GLOW EYES -->
-<circle cx="570" cy="290" r="15" fill="#2affaa">
+<!-- Eyes -->
+<circle cx="570" cy="320" r="15" fill="#2affaa">
   <animate attributeName="opacity"
     values="0.6;1;0.6"
     dur="3s"
     repeatCount="indefinite"/>
 </circle>
 
-<circle cx="630" cy="290" r="15" fill="#bb66ff">
+<circle cx="630" cy="320" r="15" fill="#bb66ff">
   <animate attributeName="opacity"
     values="1;0.6;1"
     dur="3s"
     repeatCount="indefinite"/>
 </circle>
 
-<!-- TITLE FADE IN -->
+<!-- Title -->
 <text x="600" y="120"
  fill="white"
- font-size="72"
+ font-size="70"
  text-anchor="middle"
  font-family="monospace"
- letter-spacing="8"
- opacity="0">
+ letter-spacing="8">
   Vannnn793
-  <animate attributeName="opacity"
-    from="0" to="1"
-    dur="2s"
-    fill="freeze"/>
 </text>
 
-<!-- SUBTITLE -->
 <text x="600" y="165"
  fill="#cccccc"
  font-size="22"
  text-anchor="middle"
- font-family="monospace"
- opacity="0">
-   Icon of Fuuto — Frontend & JavaScript Specialist
-  <animate attributeName="opacity"
-    from="0" to="1"
-    dur="3s"
-    fill="freeze"/>
+ font-family="monospace">
+  Hard-Boiled Frontend & JavaScript Specialist
 </text>
 
-<!-- TAGLINE -->
-<text x="600" y="650"
+<!-- LEFT PANEL (Profile Summary) -->
+<text x="100" y="220" fill="#2affaa" font-size="20" font-family="monospace">
+  CASE FILE
+</text>
+
+<text x="100" y="250" fill="white" font-size="16" font-family="monospace">
+  Role: Frontend Developer
+</text>
+
+<text x="100" y="275" fill="white" font-size="16" font-family="monospace">
+  Focus: Clean UI & Dynamic Logic
+</text>
+
+<text x="100" y="300" fill="white" font-size="16" font-family="monospace">
+  Stack: HTML • CSS • JavaScript • PHP
+</text>
+
+<text x="100" y="325" fill="white" font-size="16" font-family="monospace">
+  Currently Learning: Advanced JavaScript
+</text>
+
+<!-- RIGHT PANEL (Skill Bars) -->
+
+<!-- HTML CSS -->
+<text x="820" y="230" fill="#2affaa" font-size="18" font-family="monospace">
+  HTML / CSS
+</text>
+<rect x="820" y="240" width="300" height="8" fill="#222"/>
+<rect x="820" y="240" width="0" height="8" fill="#2affaa">
+  <animate attributeName="width" from="0" to="260" dur="2s" fill="freeze"/>
+</rect>
+
+<!-- JavaScript -->
+<text x="820" y="280" fill="#bb66ff" font-size="18" font-family="monospace">
+  JavaScript
+</text>
+<rect x="820" y="290" width="300" height="8" fill="#222"/>
+<rect x="820" y="290" width="0" height="8" fill="#bb66ff">
+  <animate attributeName="width" from="0" to="280" dur="2.5s" fill="freeze"/>
+</rect>
+
+<!-- PHP -->
+<text x="820" y="330" fill="#bb66ff" font-size="18" font-family="monospace">
+  PHP
+</text>
+<rect x="820" y="340" width="300" height="8" fill="#222"/>
+<rect x="820" y="340" width="0" height="8" fill="#bb66ff">
+  <animate attributeName="width" from="0" to="240" dur="3s" fill="freeze"/>
+</rect>
+
+<!-- Tagline -->
+<text x="600" y="685"
  fill="#777"
  font-size="18"
  text-anchor="middle"
  font-family="monospace">
-  "Now, count up your commits."
+  "Live your life hard-boiled. Now, count up your commits."
 </text>
 
 </svg>

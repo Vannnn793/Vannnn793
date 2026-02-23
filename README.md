@@ -1,68 +1,69 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:1a1a1a,50:000000,100:2b1055&height=250&section=header&text=Vannnn793&fontSize=45&fontColor=ff00ff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0b3d0b,50:145214,100:000000&height=250&section=header&text=Vannnn793%20-%20AMAZON%20MODE&fontSize=35&fontColor=ff0000&animation=fadeIn"/>
 
-# ⚡ Vannnn793
+# 🩸 Vannnn793
 
 ```diff
-+ Creative Frontend Developer
-+ PHP Focused
-! Currently learning Java
++ FRONTEND RIDER
++ PHP MAIN FORM
+! Java - Training Arc
 ```
 
-> "I don't just build websites. I craft digital energy."
+> “Wild code. Sharp design. No mercy.”
 
 ---
 
-## 🧠 Who Am I?
+## 🌿 RIDER PROFILE
 
-🩸 Frontend Developer with PHP as main weapon  
-🎨 Obsessed with UI vibes & interactive layouts  
-🚀 Leveling up every single day  
-⚔️ Not backend master... yet  
+🛡️ Role: Frontend Developer  
+🩸 Main Power: PHP  
+🌱 Learning: Java  
+⚡ Specialty: UI that feels alive  
 
----
-
-## 🔥 Tech Arsenal
-
-### 🎨 Frontend Core
-![HTML](https://img.shields.io/badge/HTML-111111?style=for-the-badge&logo=html5&logoColor=orange)
-![CSS](https://img.shields.io/badge/CSS-111111?style=for-the-badge&logo=css3&logoColor=blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=yellow)
-
-### 🩸 PHP Frontend Style
-![PHP](https://img.shields.io/badge/PHP-111111?style=for-the-badge&logo=php&logoColor=purple)
-
-### 🌱 Currently Learning
-![Java](https://img.shields.io/badge/Java-111111?style=for-the-badge&logo=openjdk&logoColor=red)
+Like Amazon, I evolve with every battle (project).
 
 ---
 
-## 📊 Power Level
+## 🔥 TRANSFORMATION DEVICES
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Vannnn793&show_icons=true&theme=radical&hide_border=true&bg_color=000000)
+### 🟢 Core Skills
+![HTML](https://img.shields.io/badge/HTML-0b3d0b?style=for-the-badge&logo=html5&logoColor=red)
+![CSS](https://img.shields.io/badge/CSS-0b3d0b?style=for-the-badge&logo=css3&logoColor=red)
+![JavaScript](https://img.shields.io/badge/JavaScript-0b3d0b?style=for-the-badge&logo=javascript&logoColor=red)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vannnn793&layout=compact&theme=radical&hide_border=true&bg_color=000000)
+### 🩸 AMAZON MAIN FORM
+![PHP](https://img.shields.io/badge/PHP-145214?style=for-the-badge&logo=php&logoColor=ff0000)
+
+### 🌱 TRAINING ARC
+![Java](https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=ff0000)
 
 ---
 
-## 🌌 Creative Mode: ON
+## ⚡ POWER LEVEL STATUS
+
+![Stats](https://github-readme-stats.vercel.app/api?username=Vannnn793&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vannnn793&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000)
+
+---
+
+## 🩸 BATTLE MODE
 
 ```bash
-> Designing layouts...
-> Injecting PHP...
-> Styling madness...
-> Deploying vibes...
+> Initialize Jungle Energy...
+> Activating PHP Core...
+> Styling with Savage Precision...
+> Deploying to Production...
 ```
 
 ---
 
-## ⚡ Vision
+## 🌿 RIDER MISSION
 
-Building:
-- Interactive web apps
-- Stylish PHP-based systems
-- Clean but powerful UI
-- Projects that evolve with me
+✔ Build wild but clean interfaces  
+✔ Master PHP-driven frontend systems  
+✔ Level up Java form  
+✔ Keep evolving  
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b1055,50:000000,100:1a1a1a&height=150&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:145214,100:0b3d0b&height=150&section=footer"/>

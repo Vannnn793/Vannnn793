@@ -104,6 +104,7 @@ Saat ini gue lagi fokus mendalami:
 # 📬 Connect With Me
 
 - GitHub: https://github.com/Vannnn793
-- (Tambahin IG / LinkedIn kalau mau)
+- Instagram: @darfan_ml
+- Tiktok: @darfan_dragneel
 
 ---

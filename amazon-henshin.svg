@@ -1,90 +1,93 @@
-<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
 
-<!-- Background -->
-<rect width="1200" height="400" fill="black"/>
+<!-- BACKGROUND -->
+<rect width="1200" height="420" fill="black"/>
 
-<!-- Dark Jungle Glow -->
-<radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
-  <stop offset="0%" stop-color="#145214"/>
+<!-- JUNGLE PULSE -->
+<radialGradient id="pulse" cx="50%" cy="50%" r="60%">
+  <stop offset="0%" stop-color="#1a5e1a"/>
   <stop offset="100%" stop-color="black"/>
 </radialGradient>
 
-<rect width="1200" height="400" fill="url(#bgGlow)">
-  <animate attributeName="opacity" values="0.4;0.7;0.4" dur="4s" repeatCount="indefinite"/>
+<rect width="1200" height="420" fill="url(#pulse)">
+  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
 </rect>
 
-<!-- Lightning Multiple -->
-<g stroke="#1aff1a" stroke-width="3" fill="none">
-  <polyline points="400,0 380,100 420,100 360,250 410,250 380,400">
+<!-- LIGHTNING CHAOS -->
+<g stroke="#2aff2a" stroke-width="3" fill="none">
+  <polyline points="200,0 180,120 220,120 160,280 210,280 180,420">
     <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/>
   </polyline>
-  <polyline points="800,0 820,120 780,120 840,260 790,260 820,400">
+  <polyline points="1000,0 1020,120 980,120 1040,280 990,280 1020,420">
     <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
   </polyline>
 </g>
 
-<!-- Blood Slash -->
-<line x1="250" y1="80" x2="950" y2="320"
- stroke="red"
- stroke-width="8">
-  <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
-</line>
+<!-- BLOOD SLASHES -->
+<g stroke="red" stroke-width="6">
+  <line x1="250" y1="90" x2="950" y2="330">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="950" y1="90" x2="250" y2="330">
+    <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite"/>
+  </line>
+</g>
 
-<!-- Floating Leaves -->
-<g fill="#1aff1a">
-  <circle cx="200" cy="50" r="6">
-    <animate attributeName="cy" from="50" to="380" dur="6s" repeatCount="indefinite"/>
+<!-- FLOATING PARTICLES -->
+<g fill="#2aff2a">
+  <circle cx="150" cy="20" r="5">
+    <animate attributeName="cy" from="20" to="400" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1000" cy="20" r="5">
-    <animate attributeName="cy" from="20" to="380" dur="7s" repeatCount="indefinite"/>
+  <circle cx="1050" cy="10" r="4">
+    <animate attributeName="cy" from="10" to="400" dur="7s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="300" cy="10" r="4">
-    <animate attributeName="cy" from="10" to="380" dur="5s" repeatCount="indefinite"/>
+  <circle cx="400" cy="0" r="3">
+    <animate attributeName="cy" from="0" to="400" dur="5s" repeatCount="indefinite"/>
   </circle>
 </g>
 
-<!-- Smoke Pulse -->
-<circle cx="600" cy="200" r="90" fill="#145214" opacity="0.2">
-  <animate attributeName="r" values="90;130;90" dur="3s" repeatCount="indefinite"/>
-</circle>
+<!-- TRANSFORMATION FLASH -->
+<rect width="1200" height="420" fill="#1aff1a" opacity="0">
+  <animate attributeName="opacity" values="0;1;0" dur="0.6s" begin="0.5s" fill="freeze"/>
+</rect>
 
-<!-- Silhouette -->
-<circle cx="600" cy="200" r="70" fill="#111">
+<!-- SILHOUETTE -->
+<circle cx="600" cy="200" r="75" fill="#111">
   <animate attributeName="opacity" values="1;0" dur="1.5s" fill="freeze"/>
 </circle>
 
-<!-- Rider Head -->
-<circle cx="600" cy="200" r="70" fill="#0b3d0b" opacity="0">
+<!-- RIDER HEAD -->
+<circle cx="600" cy="200" r="75" fill="#0b3d0b" opacity="0">
   <animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.5s" fill="freeze"/>
 </circle>
 
-<!-- Eyes -->
-<circle cx="570" cy="180" r="12" fill="red" opacity="0">
-  <animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.3s" fill="freeze"/>
-  <animate attributeName="r" values="10;16;10" dur="1s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="630" cy="180" r="12" fill="red" opacity="0">
-  <animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.3s" fill="freeze"/>
-  <animate attributeName="r" values="10;16;10" dur="1s" repeatCount="indefinite"/>
-</circle>
-
-<!-- Eye Scan Beam -->
-<rect x="600" y="175" width="0" height="5" fill="red">
-  <animate attributeName="width" from="0" to="400" dur="1s" begin="2s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="1;0" dur="1s" begin="2s" repeatCount="indefinite"/>
-</rect>
-
-<!-- Aura Energy -->
-<circle cx="600" cy="200" r="80" stroke="#1aff1a" stroke-width="3" fill="none">
-  <animate attributeName="r" values="80;150" dur="2s" repeatCount="indefinite"/>
+<!-- ENERGY BURST -->
+<circle cx="600" cy="200" r="90" stroke="#2aff2a" stroke-width="4" fill="none">
+  <animate attributeName="r" values="90;170" dur="2s" repeatCount="indefinite"/>
   <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/>
 </circle>
 
-<!-- Glitch Text -->
-<text x="600" y="350" fill="red" font-size="42" text-anchor="middle" font-family="monospace">
-  Vannnn793 - FINAL AMAZON FORM
-  <animate attributeName="opacity" values="1;0.5;1;0.7;1" dur="0.5s" repeatCount="indefinite"/>
+<!-- EYES ACTIVATION -->
+<circle cx="565" cy="180" r="14" fill="red" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="1.7s" dur="0.3s" fill="freeze"/>
+  <animate attributeName="r" values="12;18;12" dur="1s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="635" cy="180" r="14" fill="red" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="1.7s" dur="0.3s" fill="freeze"/>
+  <animate attributeName="r" values="12;18;12" dur="1s" repeatCount="indefinite"/>
+</circle>
+
+<!-- LASER SCAN -->
+<rect x="600" y="175" width="0" height="6" fill="red">
+  <animate attributeName="width" from="0" to="450" dur="1s" begin="2s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;0" dur="1s" begin="2s" repeatCount="indefinite"/>
+</rect>
+
+<!-- GLITCH NAME -->
+<text x="600" y="370" fill="red" font-size="44" text-anchor="middle" font-family="monospace">
+  Vannnn793 - ABSOLUTE AMAZON
+  <animate attributeName="opacity" values="1;0.4;1;0.6;1" dur="0.4s" repeatCount="indefinite"/>
 </text>
 
 </svg>

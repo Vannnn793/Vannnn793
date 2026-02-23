@@ -1,4 +1,4 @@
-<img src="/amazon-henshin.svg">
+<img src="/amazon-henshin.svg" width="600">
 
 # 🩸 Vannnn793
 

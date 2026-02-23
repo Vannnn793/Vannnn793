@@ -1,69 +1,113 @@
 <img src="./amazon-henshin.svg" width="100%">
 
-# 🩸 Vannnn793
+---
 
-```diff
-+ FRONTEND RIDER
-+ PHP MAIN FORM
-! Java - Training Arc
-```
+# 🕶️ About Me
 
-> “Wild code. Sharp design. No mercy.”
+> "Live your life hard-boiled."
+
+Halo, gue **Vannnn793** — Frontend Developer yang fokus ke clean UI, struktur rapi, dan logic yang solid.
+
+Gw suka bikin tampilan yang enak dilihat tapi juga punya fondasi kode yang kuat.  
+Buat gw, design bukan cuma visual — tapi cara berpikir.
 
 ---
 
-## 🌿 RIDER PROFILE
+# 🎯 Identity
 
-🛡️ Role: Frontend Developer  
-🩸 Main Power: PHP  
-🌱 Learning: Java  
-⚡ Specialty: UI that feels alive  
-
-Like Amazon, I evolve with every battle (project).
-
----
-
-## 🔥 TRANSFORMATION DEVICES
-
-### 🟢 Core Skills
-![HTML](https://img.shields.io/badge/HTML-0b3d0b?style=for-the-badge&logo=html5&logoColor=red)
-![CSS](https://img.shields.io/badge/CSS-0b3d0b?style=for-the-badge&logo=css3&logoColor=red)
-![JavaScript](https://img.shields.io/badge/JavaScript-0b3d0b?style=for-the-badge&logo=javascript&logoColor=red)
-
-### 🩸 AMAZON MAIN FORM
-![PHP](https://img.shields.io/badge/PHP-145214?style=for-the-badge&logo=php&logoColor=ff0000)
-
-### 🌱 TRAINING ARC
-![Java](https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=ff0000)
+- 🖥️ Role: Frontend Developer
+- 🧠 Focus: Clean Interface & Dynamic Interaction
+- ⚡ Core Weapon: JavaScript
+- 🌪️ UI Power: HTML & CSS
+- 🟣 Logic Engine: JavaScript & PHP
+- 📚 Currently Leveling Up: Advanced JavaScript Patterns
 
 ---
 
-## ⚡ POWER LEVEL STATUS
+# 🛠️ Tech Stack
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Vannnn793&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000)
+## 🌪️ Cyclone Side (UI Power)
+- HTML5
+- CSS3
+- Responsive Design
+- Basic Animation
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vannnn793&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000)
-
----
-
-## 🩸 BATTLE MODE
-
-```bash
-> Initialize Jungle Energy...
-> Activating PHP Core...
-> Styling with Savage Precision...
-> Deploying to Production...
-```
+## 🟣 Joker Side (Logic & Interaction)
+- JavaScript (DOM Manipulation, Logic Flow)
+- PHP (Dynamic Backend Handling)
 
 ---
 
-## 🌿 RIDER MISSION
+---
 
-✔ Build wild but clean interfaces  
-✔ Master PHP-driven frontend systems  
-✔ Level up Java form  
-✔ Keep evolving  
+# 🗂️ Selected Projects
+
+### 🌪️ Interactive UI System
+Frontend-focused interactive layout system  
+`HTML` `CSS` `JavaScript`  
+[Repository →](#)
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:145214,100:0b3d0b&height=150&section=footer"/>
+### 🟣 Dynamic PHP Handler
+Backend logic handling & validation system  
+`PHP` `JavaScript`  
+[Repository →](#)
+
+---
+---
+
+# 🏆 Milestones
+
+- ✅ Built first dynamic JavaScript project
+- ✅ Completed responsive layout challenge
+- 🔄 Currently building interactive system
+- 🎯 Target: Full frontend project deployment
+
+---
+
+# 🚀 What I Bring
+
+✔ Structured and readable code  
+✔ Balanced visual hierarchy  
+✔ Interactive frontend logic  
+✔ Continuous learning mindset  
+✔ Hard-boiled execution style  
+
+---
+
+# 📂 Featured Focus
+
+Saat ini gue lagi fokus mendalami:
+
+- Deeper JavaScript concepts
+- Better component structure
+- Writing cleaner scalable code
+- Improving UI consistency
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Vannnn793&show_icons=true&theme=tokyonight&hide_border=true" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vannnn793&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+# 🧭 Philosophy
+
+> Build with precision.  
+> Execute with style.  
+> Count up your commits.
+
+---
+
+# 📬 Connect With Me
+
+- GitHub: https://github.com/Vannnn793
+- (Tambahin IG / LinkedIn kalau mau)
+
+---

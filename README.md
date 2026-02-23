@@ -1,54 +1,68 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Vannnn793&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:1a1a1a,50:000000,100:2b1055&height=250&section=header&text=Vannnn793&fontSize=45&fontColor=ff00ff&animation=fadeIn"/>
 
-# 👋 Hey, I'm Vannnn793
+# ⚡ Vannnn793
 
-🎨 Frontend Developer  
-✨ Turning ideas into interactive web experiences  
-🚀 Passionate about UI, animations, and clean design  
+```diff
++ Creative Frontend Developer
++ PHP Focused
+! Currently learning Java
+```
 
----
-
-## 💫 About Me
-
-- 💻 Fokus di **Frontend Development**
-- 🎯 Suka bikin tampilan yang clean & modern
-- 🌱 Lagi belajar improve design sense & advanced React
-- ⚡ Motto: *Simple, Clean, Impactful*
+> "I don't just build websites. I craft digital energy."
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Who Am I?
 
-### 🎨 Frontend
-![HTML](https://img.shields.io/badge/HTML-000?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-000?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript)
-![React](https://img.shields.io/badge/React-000?style=for-the-badge&logo=react)
-
-### 🧩 Tools
-![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git)
-![Figma](https://img.shields.io/badge/Figma-000?style=for-the-badge&logo=figma)
-![VSCode](https://img.shields.io/badge/VSCode-000?style=for-the-badge&logo=visualstudiocode)
+🩸 Frontend Developer with PHP as main weapon  
+🎨 Obsessed with UI vibes & interactive layouts  
+🚀 Leveling up every single day  
+⚔️ Not backend master... yet  
 
 ---
 
-## 📊 GitHub Stats
+## 🔥 Tech Arsenal
 
-![Vannnn793's GitHub stats](https://github-readme-stats.vercel.app/api?username=Vannnn793&show_icons=true&theme=tokyonight&hide_border=true)
+### 🎨 Frontend Core
+![HTML](https://img.shields.io/badge/HTML-111111?style=for-the-badge&logo=html5&logoColor=orange)
+![CSS](https://img.shields.io/badge/CSS-111111?style=for-the-badge&logo=css3&logoColor=blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=yellow)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vannnn793&layout=compact&theme=tokyonight&hide_border=true)
+### 🩸 PHP Frontend Style
+![PHP](https://img.shields.io/badge/PHP-111111?style=for-the-badge&logo=php&logoColor=purple)
+
+### 🌱 Currently Learning
+![Java](https://img.shields.io/badge/Java-111111?style=for-the-badge&logo=openjdk&logoColor=red)
 
 ---
 
-## 🔥 Featured Projects
+## 📊 Power Level
 
-✨ Make sure to check my pinned repositories below  
-🚀 More cool projects coming soon...
+![Stats](https://github-readme-stats.vercel.app/api?username=Vannnn793&show_icons=true&theme=radical&hide_border=true&bg_color=000000)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vannnn793&layout=compact&theme=radical&hide_border=true&bg_color=000000)
 
 ---
 
-## 🌌 Aesthetic Touch
+## 🌌 Creative Mode: ON
 
-![Visitor Badge](https://komarev.com/ghpvc/?username=Vannnn793&color=blueviolet)
+```bash
+> Designing layouts...
+> Injecting PHP...
+> Styling madness...
+> Deploying vibes...
+```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
+---
+
+## ⚡ Vision
+
+Building:
+- Interactive web apps
+- Stylish PHP-based systems
+- Clean but powerful UI
+- Projects that evolve with me
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b1055,50:000000,100:1a1a1a&height=150&section=footer"/>

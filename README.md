@@ -106,5 +106,6 @@ Saat ini gue lagi fokus mendalami:
 - GitHub: https://github.com/Vannnn793
 - Instagram: @darfan_ml
 - Tiktok: @darfan_dragneel
+- LinkedIn: linkedin.com/in/arfan-dragneel-47b02b385
 
 ---

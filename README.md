@@ -1,111 +1,101 @@
 <img src="./amazon-henshin.svg" width="100%">
+🕶️ About Me
 
----
+"Live your life hard-boiled."
 
-# 🕶️ About Me
+Hi, I'm Vannnn793 — a Backend-Oriented Developer who builds structured systems, clean logic, and reliable foundations.
 
-> "Live your life hard-boiled."
+I believe great software starts behind the scenes.
+For me, code isn’t just syntax — it’s architecture, flow, and execution.
 
-Halo, gue **Vannnn793** — Frontend Developer yang fokus ke clean UI, struktur rapi, dan logic yang solid.
+🎯 Identity
 
-Gw suka bikin tampilan yang enak dilihat tapi juga punya fondasi kode yang kuat.  
-Buat gw, design bukan cuma visual — tapi cara berpikir.
+🖥️ Primary Role: Backend Developer
 
----
+🧠 Focus: System Logic & Data Flow
 
-# 🎯 Identity
+⚙️ Core Weapon: PHP & JavaScript
 
-- 🖥️ Role: Frontend Developer
-- 🧠 Focus: Clean Interface & Dynamic Interaction
-- ⚡ Core Weapon: JavaScript
-- 🌪️ UI Power: HTML & CSS
-- 🟣 Logic Engine: JavaScript & PHP
-- 📚 Currently Leveling Up: Advanced JavaScript Patterns
+🗄️ Backend Strength: Server Logic & Dynamic Processing
 
----
+🌪️ Frontend Capability: Clean UI Implementation (HTML, CSS, JS)
 
-# 🛠️ Tech Stack
+📚 Currently Leveling Up: Advanced Backend Patterns & Scalable Architecture
 
-## 🌪️ Cyclone Side (UI Power)
-- HTML5
-- CSS3
-- Responsive Design
-- Basic Animation
+🛠️ Tech Stack
+🟣 Core System Side (Backend Focus)
 
-## 🟣 Joker Side (Logic & Interaction)
-- JavaScript (DOM Manipulation, Logic Flow)
-- PHP (Dynamic Backend Handling)
+PHP (Dynamic Backend Handling)
 
----
+JavaScript (Logic Flow & Functional Structure)
 
----
+Data Processing & Server-Side Logic
 
-# 🗂️ Selected Projects
+Basic MVC Understanding
 
-### 🌪️ Interactive UI System
-Frontend-focused interactive layout system  
-`HTML` `CSS` `JavaScript`  
-[Repository →](https://github.com/Vannnn793/kampusgw)
+🌪️ Interface Side (Supporting Frontend)
 
----
+HTML5
 
+CSS3
 
----
----
+Responsive Layout
 
-# 🏆 Milestones
+DOM Manipulation
 
-- ✅ Built first dynamic JavaScript project
-- ✅ Completed responsive layout challenge
-- 🔄 Currently building interactive system
-- 🎯 Target: Full frontend project deployment
+🗂️ Selected Projects
+🟣 Dynamic System Project
 
----
+Backend-driven interactive system
+PHP JavaScript HTML CSS
+Repository →
 
-# 🚀 What I Bring
+🏆 Milestones
 
-✔ Structured and readable code  
-✔ Balanced visual hierarchy  
-✔ Interactive frontend logic  
-✔ Continuous learning mindset  
-✔ Hard-boiled execution style  
+✅ Built first dynamic backend-powered project
 
----
+✅ Implemented server-side logic handling
 
-# 📂 Featured Focus
+🔄 Currently improving system structure & scalability
 
-Saat ini gue lagi fokus mendalami:
+🎯 Target: Deploy full-stack production-ready project
 
-- Deeper JavaScript concepts
-- Better component structure
-- Writing cleaner scalable code
-- Improving UI consistency
+🚀 What I Bring
 
----
+✔ Structured and maintainable backend logic
+✔ Clean and readable code architecture
+✔ Balanced system thinking (logic + interface)
+✔ Continuous improvement mindset
+✔ Hard-boiled execution style
 
-# 📊 GitHub Stats
+📂 Current Focus
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vannnn793&show_icons=true&theme=tokyonight&hide_border=true" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vannnn793&theme=tokyonight&hide_border=true" />
-</p>
+Right now I’m diving deeper into:
 
----
+Advanced PHP architecture
 
-# 🧭 Philosophy
+Scalable backend structure
 
-> Build with precision.  
-> Execute with style.  
-> Count up your commits.
+Cleaner and modular code design
 
----
+Improving API & data flow handling
 
-# 📬 Connect With Me
+Strengthening problem-solving through system logic
 
-- GitHub: https://github.com/Vannnn793
-- Instagram: @darfan_ml
-- Tiktok: @darfan_dragneel
-- LinkedIn: [linkedin.com/in/arfan-dragneel-47b02b385](https://www.linkedin.com/in/arfan-dragneel-47b02b385/)
+📊 GitHub Stats
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Vannnn793&show_icons=true&theme=tokyonight&hide_border=true" /> <br/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vannnn793&theme=tokyonight&hide_border=true" /> </p>
+🧭 Philosophy
 
----
+Build the system right.
+Execute with precision.
+Let the logic speak.
+
+📬 Connect With Me
+
+GitHub: https://github.com/Vannnn793
+
+Instagram: @darfan_ml
+
+Tiktok: @darfan_dragneel
+
+LinkedIn: https://www.linkedin.com/in/arfan-dragneel-47b02b385/

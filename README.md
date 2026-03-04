@@ -1,66 +1,67 @@
 <img src="./amazon-henshin.svg" width="100%">
-🕶️ About Me
 
-"Live your life hard-boiled."
+---
 
-Hi, I'm Vannnn793 — a Backend-Oriented Developer who builds structured systems, clean logic, and reliable foundations.
+# 🕶️ About Me
+
+> "Live your life hard-boiled."
+
+Hi, I'm **Vannnn793** — a Backend-Oriented Developer who builds structured systems, clean logic, and reliable foundations.
 
 I believe great software starts behind the scenes.
 For me, code isn’t just syntax — it’s architecture, flow, and execution.
 
-🎯 Identity
+---
 
-🖥️ Primary Role: Backend Developer
+# 🎯 Identity
 
-🧠 Focus: System Logic & Data Flow
+* 🖥️ Primary Role: Backend Developer
+* 🧠 Focus: System Logic & Data Flow
+* ⚙️ Core Weapon: PHP & JavaScript
+* 🗄️ Backend Strength: Server Logic & Dynamic Processing
+* 🌪️ Frontend Capability: Clean UI Implementation (HTML, CSS, JS)
+* 📚 Currently Leveling Up: Advanced Backend Patterns & Scalable Architecture
 
-⚙️ Core Weapon: PHP & JavaScript
+---
 
-🗄️ Backend Strength: Server Logic & Dynamic Processing
+# 🛠️ Tech Stack
 
-🌪️ Frontend Capability: Clean UI Implementation (HTML, CSS, JS)
+## 🟣 Core System Side (Backend Focus)
 
-📚 Currently Leveling Up: Advanced Backend Patterns & Scalable Architecture
+* PHP (Dynamic Backend Handling)
+* JavaScript (Logic Flow & Functional Structure)
+* Data Processing & Server-Side Logic
+* Basic MVC Understanding
 
-🛠️ Tech Stack
-🟣 Core System Side (Backend Focus)
+## 🌪️ Interface Side (Supporting Frontend)
 
-PHP (Dynamic Backend Handling)
+* HTML5
+* CSS3
+* Responsive Layout
+* DOM Manipulation
 
-JavaScript (Logic Flow & Functional Structure)
+---
 
-Data Processing & Server-Side Logic
+# 🗂️ Selected Projects
 
-Basic MVC Understanding
-
-🌪️ Interface Side (Supporting Frontend)
-
-HTML5
-
-CSS3
-
-Responsive Layout
-
-DOM Manipulation
-
-🗂️ Selected Projects
-🟣 Dynamic System Project
+### 🟣 Dynamic System Project
 
 Backend-driven interactive system
-PHP JavaScript HTML CSS
-Repository →
+`PHP` `JavaScript` `HTML` `CSS`
+[Repository →](https://github.com/Vannnn793/kampusgw)
 
-🏆 Milestones
+---
 
-✅ Built first dynamic backend-powered project
+# 🏆 Milestones
 
-✅ Implemented server-side logic handling
+* ✅ Built first dynamic backend-powered project
+* ✅ Implemented server-side logic handling
+* 🔄 Currently improving system structure & scalability
+* 🎯 Target: Deploy full-stack production-ready project
 
-🔄 Currently improving system structure & scalability
+---
 
-🎯 Target: Deploy full-stack production-ready project
-
-🚀 What I Bring
+# 🚀 What I Bring
 
 ✔ Structured and maintainable backend logic
 ✔ Clean and readable code architecture
@@ -68,34 +69,43 @@ Repository →
 ✔ Continuous improvement mindset
 ✔ Hard-boiled execution style
 
-📂 Current Focus
+---
+
+# 📂 Current Focus
 
 Right now I’m diving deeper into:
 
-Advanced PHP architecture
+* Advanced PHP architecture
+* Scalable backend structure
+* Cleaner and modular code design
+* Improving API & data flow handling
+* Strengthening problem-solving through system logic
 
-Scalable backend structure
+---
 
-Cleaner and modular code design
+# 📊 GitHub Stats
 
-Improving API & data flow handling
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Vannnn793&show_icons=true&theme=tokyonight&hide_border=true" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vannnn793&theme=tokyonight&hide_border=true" />
+</p>
 
-Strengthening problem-solving through system logic
+---
 
-📊 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Vannnn793&show_icons=true&theme=tokyonight&hide_border=true" /> <br/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vannnn793&theme=tokyonight&hide_border=true" /> </p>
-🧭 Philosophy
+# 🧭 Philosophy
 
-Build the system right.
-Execute with precision.
-Let the logic speak.
+> Build the system right.
+> Execute with precision.
+> Let the logic speak.
 
-📬 Connect With Me
+---
 
-GitHub: https://github.com/Vannnn793
+# 📬 Connect With Me
 
-Instagram: @darfan_ml
+* GitHub: [https://github.com/Vannnn793](https://github.com/Vannnn793)
+* Instagram: @darfan_ml
+* Tiktok: @darfan_dragneel
+* LinkedIn: [https://www.linkedin.com/in/arfan-dragneel-47b02b385/](https://www.linkedin.com/in/arfan-dragneel-47b02b385/)
 
-Tiktok: @darfan_dragneel
-
-LinkedIn: https://www.linkedin.com/in/arfan-dragneel-47b02b385/
+---
